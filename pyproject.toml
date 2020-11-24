@@ -4,7 +4,7 @@ version = "0.0.1"
 description = "Command Line Interface (CLI) that abstract much of common pattern in creating and structuring Django project."
 authors = ["Innocent Zenda <zendainnocent@gmail.com>"]
 repository = "https://github.com/ZendaInnocent/create-django-project.git"
-readme = 'README.rst'
+readme = 'README.md'
 
 [tool.poetry.dependencies]
 python = "^3.6"
