@@ -95,4 +95,4 @@ After that, the command will do the following:
 
 ## License
 
-Code released under `MIT LICENSE <https://github.com/ZendaInnocent/create-django-project/blob/main/LICENSE>`_
+Code released under [MIT LICENSE](<https://github.com/ZendaInnocent/create-django-project/blob/main/LICENSE>)
