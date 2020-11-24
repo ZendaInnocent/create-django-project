@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "create-django-project"
 version = "0.0.1"
-description = ""
+description = "Command Line Interface (CLI) that abstract much of common pattern in creating and structuring Django project."
 authors = ["Innocent Zenda <zendainnocent@gmail.com>"]
+repository = "https://github.com/ZendaInnocent/create-django-project.git"
+readme = 'README.rst'
 
 [tool.poetry.dependencies]
 python = "^3.6"
