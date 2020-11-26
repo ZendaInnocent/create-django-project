@@ -82,8 +82,23 @@ After that, the command will do the following:
     create-django-project <path> -n <project-name>
     ```
 
-    If project name is `config`, it then renamed to `src`.
+    If project name is `config` it then renamed to `src`.
 
+    Resulting project structure.
+
+    ```
+    root
+    ├───env
+    └───src
+        └───config
+            └───__init__.py
+            └───asgi.py
+            └───settings.py
+            └───urls.py
+            └───wsgi.py
+        └───.env
+        └───manage.py
+    ```
 
 - Manage enviromental variables by creating `.env` file in project directory and fill in values for `SECRET_KEY`, `DEBUG` and `ALLOWED_HOSTS`
 
@@ -94,5 +109,4 @@ After that, the command will do the following:
     ```
 
 ## License
-
-Code released under [MIT LICENSE](<https://github.com/ZendaInnocent/create-django-project/blob/main/LICENSE>)
+Code released under [MIT LICENSE](https://github.com/ZendaInnocent/create-django-project/blob/main/LICENSE)
